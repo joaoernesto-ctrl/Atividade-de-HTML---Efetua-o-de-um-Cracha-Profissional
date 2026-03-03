@@ -24,9 +24,9 @@ gerar.addEventListener('click', function(){
         } else if (deparInput === "Design") {
             borderaccent.style.backgroundColor = '#160e3aff'
             borderaccent.style.border = '3px solid #2500caff'
-        } else if (deparInput === "Marketing"){
-            borderaccent.style.backgroundColor = '#3a0e0eff'
-            borderaccent.style.border = '3px solid #ca0000ff'
+        } else {
+            borderaccent.style.backgroundColor = '#0e3a1dff'
+            borderaccent.style.border = '3px solid #2fca00ff'
         }
     } else {
         alert("Certifique-se que você preenchou todos os campos.")
